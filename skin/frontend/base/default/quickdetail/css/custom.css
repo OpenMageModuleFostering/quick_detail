@@ -1,0 +1,5 @@
+.quickdetail_div{display: none;}
+.all_details .product-image{float: left; padding-left:2px;}
+.all_details .attribute_detail{width: 48%; float:right; text-align: left; margin: 10px 2px 0 2px;}
+.attr_label{font-weight: bold;}
+.all_details .head-text h3{color:#ffffff;}

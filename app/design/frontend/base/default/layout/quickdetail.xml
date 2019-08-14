@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <catalog_category_default>
+        <reference name="head" ifconfig="quickdetail/viewsetting/enableview">
+            <action method="addJs"><script>quickdetail/js/jquery-1.7.2.min.js</script></action>
+	    <action method="addJs"><script>quickdetail/js/jquery.noconflict.js</script></action>
+            <action method="addJs"><script>quickdetail/js/uni_quickdetail.js</script></action>
+            <action method="addJs"><script>quickdetail/js/tooltip/jquery.dimensions.js</script></action>
+            <action method="addJs"><script>quickdetail/js/tooltip/jquery.tooltip.js</script></action>
+            <action method="addCss"><stylesheet>quickdetail/css/jquery.tooltip.css</stylesheet></action>
+            <action method="addCss"><stylesheet>quickdetail/css/custom.css</stylesheet></action>
+        </reference>
+         <reference name="product_list">
+            <action method="setTemplate"><template>quickdetail/product/all-list.phtml</template></action>
+            <block type="catalog/product_list" name="list14" template="quickdetail/product/list/list14.phtml"/>
+            <block type="catalog/product_list" name="list15" template="quickdetail/product/list/list15.phtml"/>
+            <block type="catalog/product_list" name="list16" template="quickdetail/product/list/list16.phtml"/>
+            <block type="catalog/product_list" name="list17" template="quickdetail/product/list/list17.phtml"/>
+        </reference>
+    </catalog_category_default>
+    <catalog_category_layered>
+        <reference name="head" ifconfig="quickdetail/viewsetting/enableview">
+            <action method="addJs"><script>quickdetail/js/jquery-1.7.2.min.js</script></action>
+	    <action method="addJs"><script>quickdetail/js/jquery.noconflict.js</script></action>
+            <action method="addJs"><script>quickdetail/js/uni_quickdetail.js</script></action>
+            <action method="addJs"><script>quickdetail/js/tooltip/jquery.dimensions.js</script></action>
+            <action method="addJs"><script>quickdetail/js/tooltip/jquery.tooltip.js</script></action>
+            <action method="addCss"><stylesheet>quickdetail/css/jquery.tooltip.css</stylesheet></action>
+            <action method="addCss"><stylesheet>quickdetail/css/custom.css</stylesheet></action>
+        </reference>
+         <reference name="product_list">
+            <action method="setTemplate"><template>quickdetail/product/all-list.phtml</template></action>
+            <block type="catalog/product_list" name="list14" template="quickdetail/product/list/list14.phtml"/>
+            <block type="catalog/product_list" name="list15" template="quickdetail/product/list/list15.phtml"/>
+            <block type="catalog/product_list" name="list16" template="quickdetail/product/list/list16.phtml"/>
+            <block type="catalog/product_list" name="list17" template="quickdetail/product/list/list17.phtml"/>
+        </reference>
+    </catalog_category_layered>
+    <catalogsearch_result_index>
+        <reference name="head" ifconfig="quickdetail/viewsetting/enableview">
+            <action method="addJs"><script>quickdetail/js/jquery-1.7.2.min.js</script></action>
+	    <action method="addJs"><script>quickdetail/js/jquery.noconflict.js</script></action>
+            <action method="addJs"><script>quickdetail/js/uni_quickdetail.js</script></action>
+            <action method="addJs"><script>quickdetail/js/tooltip/jquery.dimensions.js</script></action>
+            <action method="addJs"><script>quickdetail/js/tooltip/jquery.tooltip.js</script></action>
+            <action method="addCss"><stylesheet>quickdetail/css/jquery.tooltip.css</stylesheet></action>
+            <action method="addCss"><stylesheet>quickdetail/css/custom.css</stylesheet></action>
+        </reference>
+         <reference name="search_result_list">
+            <action method="setTemplate"><template>quickdetail/product/all-list.phtml</template></action>
+           <block type="catalog/product_list" name="list14" template="quickdetail/product/list/list14.phtml"/>
+            <block type="catalog/product_list" name="list15" template="quickdetail/product/list/list15.phtml"/>
+            <block type="catalog/product_list" name="list16" template="quickdetail/product/list/list16.phtml"/>
+            <block type="catalog/product_list" name="list17" template="quickdetail/product/list/list17.phtml"/>
+        </reference>
+    </catalogsearch_result_index>
+    <catalogsearch_advanced_result>
+        <reference name="head" ifconfig="quickdetail/viewsetting/enableview">
+            <action method="addJs"><script>quickdetail/js/jquery-1.7.2.min.js</script></action>
+	    <action method="addJs"><script>quickdetail/js/jquery.noconflict.js</script></action>
+            <action method="addJs"><script>quickdetail/js/uni_quickdetail.js</script></action>
+            <action method="addJs"><script>quickdetail/js/tooltip/jquery.dimensions.js</script></action>
+            <action method="addJs"><script>quickdetail/js/tooltip/jquery.tooltip.js</script></action>
+            <action method="addCss"><stylesheet>quickdetail/css/jquery.tooltip.css</stylesheet></action>
+            <action method="addCss"><stylesheet>quickdetail/css/custom.css</stylesheet></action>
+        </reference>
+         <reference name="search_result_list">
+            <action method="setTemplate"><template>quickdetail/product/all-list.phtml</template></action>
+            <block type="catalog/product_list" name="list14" template="quickdetail/product/list/list14.phtml"/>
+            <block type="catalog/product_list" name="list15" template="quickdetail/product/list/list15.phtml"/>
+            <block type="catalog/product_list" name="list16" template="quickdetail/product/list/list16.phtml"/>
+            <block type="catalog/product_list" name="list17" template="quickdetail/product/list/list17.phtml"/>
+        </reference>
+    </catalogsearch_advanced_result>
+    <tag_product_list>
+        <reference name="head" ifconfig="quickdetail/viewsetting/enableview">
+            <action method="addJs"><script>quickdetail/js/jquery-1.7.2.min.js</script></action>
+	    <action method="addJs"><script>quickdetail/js/jquery.noconflict.js</script></action>
+            <action method="addJs"><script>quickdetail/js/uni_quickdetail.js</script></action>
+            <action method="addJs"><script>quickdetail/js/tooltip/jquery.dimensions.js</script></action>
+            <action method="addJs"><script>quickdetail/js/tooltip/jquery.tooltip.js</script></action>
+            <action method="addCss"><stylesheet>quickdetail/css/jquery.tooltip.css</stylesheet></action>
+            <action method="addCss"><stylesheet>quickdetail/css/custom.css</stylesheet></action>
+        </reference>
+         <reference name="search_result_list">
+            <action method="setTemplate"><template>quickdetail/product/all-list.phtml</template></action>
+            <block type="catalog/product_list" name="list14" template="quickdetail/product/list/list14.phtml"/>
+            <block type="catalog/product_list" name="list15" template="quickdetail/product/list/list15.phtml"/>
+            <block type="catalog/product_list" name="list16" template="quickdetail/product/list/list16.phtml"/>
+            <block type="catalog/product_list" name="list17" template="quickdetail/product/list/list17.phtml"/>
+        </reference>
+    </tag_product_list>
+
+    
+</layout>
