@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Quick_Detail",
+    "name": "OpenMageModuleFostering\/Quick_Detail",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Quick Details extension allows you to see product details on mouseover based on setting which is set by you in admin.",
     "authors": [
-    {
-        "name": "Anupam Tiwari",
-        "email": "vishwasnature30@gmail.com"
-    }
-],
+        {
+            "name": "Anupam Tiwari",
+            "email": "vishwasnature30@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
