@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Quick Details extension allows you to see product details on mouseover based on setting which is set by you in admin.
